@@ -10,7 +10,7 @@ function randint(){
 		alert('You lost');
 		$('#points').html('Wasted').css('color', 'red').css('font-size', '90px');
 		$('#btn').prop('disabled', true)
-		$('#images').html('<button id="but" onclick="document.location.reload();">Reload</button>')
+		$('#images').html('<button id="but" onclick="document.location.reload();">New game</button>')
 	}
 	else{
 	
