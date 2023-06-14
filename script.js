@@ -8,8 +8,9 @@ function randint(){
 	$('#points').html('You have '+ counter + ' points');
 	if (counter < 0) {
 		alert('You lost');
-		$('#points').html('Wasted').css('color', 'red').css('font-size', '100px');
+		$('#points').html('Wasted').css('color', 'red').css('font-size', '90px');
 		$('#btn').prop('disabled', true)
+		$('#images').html('<button id="but" onclick="document.location.reload();">Reload</button>')
 	}
 	else{
 	
