@@ -1,0 +1,30 @@
+body{
+	background-color: orange;
+	background-image: url('bg.png');
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size: 45% auto;
+	background-position:center;
+}
+#start, #btn{
+	width: 200px;
+	text-align: center;
+}
+input{
+	margin-bottom: 10px;
+}
+.fix{
+	margin-top: 300px;
+	text-align: center;
+
+}
+h1{
+	font-size: 70px;
+	font-family: 'Vanilla Whale', sans-serif;
+	letter-spacing: 7px;
+                                                
+}
+p{
+	font-family: 'Shadowed Serif', sans-serif;
+                                                
+}
