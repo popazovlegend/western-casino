@@ -19,9 +19,9 @@ function randint(){
 	let c =Math.floor(Math.random()*6+1)
 	
 	$('#images').html(
-		"<img src='b"+a +".gif'>" +
-		"<img src='b"+b +".gif'>" +
-		"<img src='b"+c +".gif'>"
+		"<img src='g"+a +".png'>" +
+		"<img src='g"+b +".png'>" +
+		"<img src='g"+c +".png'>"
 		)
 
 	if(a==b && b==c){
